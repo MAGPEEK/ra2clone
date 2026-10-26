@@ -3,7 +3,8 @@
 Goal: an independent, playable reimplementation of Command & Conquer: Red Alert 2 / Yuri's Revenge in C#.
 It reads the user's own legally owned game assets at runtime. Original code and assets are never committed.
 
-Do not modify .github/, docs/TASKS.md statuses, global.json, nuget.config or Directory.Build.props unless the task explicitly says so. If a change to these files seems necessary, stop and explain why.
+- Do not modify .github/, docs/TASKS.md statuses, global.json, nuget.config or Directory.Build.props unless the task explicitly says so. If a change to these files seems necessary, stop and explain why.
+- hase 1 and 2 tasks use documentation only; REA is for Phase 3 tasks.
 
 ## Working mode
 - Work on ONE task from `docs/TASKS.md` at a time. Do not start other tasks.

@@ -10,7 +10,7 @@ Follow `.github/copilot-instructions.md` and the references in `docs/references.
 
 If step = research:
 1. Read `docs/TASKS.md` and any existing `docs/specs/${input:task}.md`.
-2. Use only the REA tools. If no binary is open, call `binary_session`, then `open_binary` with provider `ghidra` on the target in the instructions.
+2. For Phase 1 and 2 tasks, use refs/ra2ff, ModEnc and other documentation. Do not use REA. REA is only for Phase 3 tasks.
 3. Gather evidence for the task. Show the raw tool results for every key finding before you interpret them.
 4. Write or update `docs/specs/${input:task}.md` using `docs/specs/TEMPLATE.md`.
 5. List open questions and everything marked UNVERIFIED. Do not write any source code in this step.
