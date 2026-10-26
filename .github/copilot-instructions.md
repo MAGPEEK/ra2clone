@@ -3,6 +3,8 @@
 Goal: an independent, playable reimplementation of Command & Conquer: Red Alert 2 / Yuri's Revenge in C#.
 It reads the user's own legally owned game assets at runtime. Original code and assets are never committed.
 
+Do not modify .github/, docs/TASKS.md statuses, global.json, nuget.config or Directory.Build.props unless the task explicitly says so. If a change to these files seems necessary, stop and explain why.
+
 ## Working mode
 - Work on ONE task from `docs/TASKS.md` at a time. Do not start other tasks.
 - Before researching, read `docs/specs/` for existing findings. Do not redo finished work.
@@ -30,7 +32,7 @@ It reads the user's own legally owned game assets at runtime. Original code and 
 - References are for orientation and naming only. Never copy code from them. Never treat them as proof of behavior; confirm behavior with REA evidence.
 
 ## Code rules
-- Language: C# (.NET), solution in `src/`, tests in `tests/` (xUnit).
+- Language: C# (.NET), solution in `src/`, tests in `tests/` (xUnit v3).
 - Simulation code is deterministic: fixed tick, no floating point in game logic unless a spec says otherwise, no wall-clock time, a single seeded RNG.
 - Simulation code has no dependency on rendering, audio or input.
 - Every implemented rule needs a test with expected values taken from a spec or real game data, not from your own guess.
