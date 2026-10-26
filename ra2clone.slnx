@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/ra2clone.core/ra2clone.core.csproj" Id="dbfb1796-6f7a-4379-a711-9f625b1a44dd" />
+  <Project Path="src/ra2clone/ra2clone.csproj" />
+  <Project Path="tests/ra2clone.tests/ra2clone.tests.csproj" Id="aec4b81c-1a83-49c0-9a66-71ef074e20ab" />
+</Solution>

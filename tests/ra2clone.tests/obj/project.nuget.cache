@@ -1,0 +1,53 @@
+{
+  "version": 2,
+  "dgSpecHash": "OIRZwRfPM+U=",
+  "success": false,
+  "projectFilePath": "O:\\_Sources\\ra2clone\\tests\\ra2clone.tests\\ra2clone.tests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package coverlet.collector with version (>= 6.0.4)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 6.0.0 ]",
+      "projectPath": "O:\\_Sources\\ra2clone\\tests\\ra2clone.tests\\ra2clone.tests.csproj",
+      "filePath": "O:\\_Sources\\ra2clone\\tests\\ra2clone.tests\\ra2clone.tests.csproj",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.NET.Test.Sdk with version (>= 17.14.1)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 17.10.0-preview-24080-01 ]",
+      "projectPath": "O:\\_Sources\\ra2clone\\tests\\ra2clone.tests\\ra2clone.tests.csproj",
+      "filePath": "O:\\_Sources\\ra2clone\\tests\\ra2clone.tests\\ra2clone.tests.csproj",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package xunit. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "projectPath": "O:\\_Sources\\ra2clone\\tests\\ra2clone.tests\\ra2clone.tests.csproj",
+      "filePath": "O:\\_Sources\\ra2clone\\tests\\ra2clone.tests\\ra2clone.tests.csproj",
+      "libraryId": "xunit",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package xunit.runner.visualstudio. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "projectPath": "O:\\_Sources\\ra2clone\\tests\\ra2clone.tests\\ra2clone.tests.csproj",
+      "filePath": "O:\\_Sources\\ra2clone\\tests\\ra2clone.tests\\ra2clone.tests.csproj",
+      "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
