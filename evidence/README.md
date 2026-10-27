@@ -99,6 +99,18 @@ Unless noted, the command prefix is `npx -y rea-agents@6.8.0 <cmd> "<gamemd.exe>
 | `inspect-pe-certificates.json` | `inspect-pe-certificates` | see file | Authenticode PKCS#7 structure (not cryptographically checked by REA) |
 | `inspect-byte-entropy.json` | `inspect-byte-entropy` | see file | File entropy 6.82; high-entropy runs only near resources/signature |
 | `inspect-desktop-application.md` | `inspect-desktop-application <game folder>` | ev_742030dba4af483b9d78e18dcefc76f96fabf8aa912fb9cb7711834d0dab0ff8 | Inventory of the whole install folder |
+| `bytes-0x81da58.json` | `read-bytes 0x81da58 --length 32` | ev_e12ce0fc5c446d33a303e5d28ab7417eed9666fe3fdce68a1b84033b95f89c15 | SpeedType name pointer table (8 pointers) |
+| `bytes-0x81dba0.json` | `read-bytes 0x81dba0 --length 52` | ev_226c06127cd47f286111844fae2637a375d486616fb8f2e3bdae36122f811b69 | Strings FloatBeach, Float, Winged, Hover, Wheel, Track |
+| `bytes-0x81bb18.json` | `read-bytes 0x81bb18 --length 16` | ev_072214efd15ad7c2055db848b8d7c299952a5d2227f90c39ff662afb50e8014a | String Amphibious |
+| `bytes-0x7e8a78.json` | `read-bytes 0x7e8a78 --length 4` | ev_813a54a2233db5acedeb0da099101a5959725d9185531803201f3b3420a2108e | Fly ILocomotion vtable slot +0x84 = 0x4cfe20 |
+| `inspect-instr-0x4ce4b0.json` | `inspect-native-instruction 0x4ce4b0` | ev_9c0988462b6bd9c2830368eb5113f294ceb494c1aa0f5fe9cbc8defb3ce6c42e | Undecodable, no references |
+| `inspect-instr-0x6f3270.json` | `inspect-native-instruction 0x6f3270` | ev_2b1a0acdeb579bcb416dbb4f336fb474469b820fdf6c8da417ce088eee62dab9 | `MOV EAX,[ECX]`, no procedure, six data references |
+| `fn-0x4cfe20.json` (local) | `function 0x4cfe20` | ev_b43b822b0b186b437373925f392321db5ad36e2bf12dcda4d65c106dea2b24e2 | Fly slot +0x84: F2I(Type+0x678 * p+0x44) |
+| `fn-0x7caf30.json` (local) | `function 0x7caf30` | ev_703c6bb647f168a2fc35e1158d802d4d51a84dccaa6d3dddf633278eb7166495 | strchr |
+| `fn-0x4b4780.json` (local) | `function 0x4b4780` | ev_1745e3d90518b7349baaf8109a6faab3475f950454deb0d49a6bf65283ee6b12 | Drive track point transform |
+| `searchbytes-d92d.json` | `search-bytes d92d` | ev_962e8f852e902ecd56bc2aa63bdcdf07a767c4c11ba225e1d15b740007995624 | 8 byte matches of FLDCW [abs32] |
+| `inspect-instr-0x4495f3.json` etc. | `inspect-native-instruction` x4 | ev_bc854e94... / ev_c9eb9f78... / ev_b9c8929a... / ev_99e0fbad... | All four `.text` matches are not instruction starts |
+| `searchbytes-fldcw-all.json` | `search-bytes d928 --mask ff38` | ev_2902956242d7a1fba95ffd30a546d8bcba35a5d967e7b5b62d44f8605fd510a5 | First page of masked FLDCW byte matches; not conclusive |
 | `gamemd.snapshot` | `--snapshot` of the 2026-10-26 runs | n/a | REA analysis snapshot; the packages of 2026-10-27 only copied it and never wrote it |
 | `gamemd-AP11.snapshot` | copy of `gamemd.snapshot` used for the AP-11 runs | n/a | private snapshot (parallel-agent isolation) |
 | `gamemd-AP12.snapshot` | copy of `gamemd.snapshot` used by the AP-12 and AP-26 runs | n/a | REA snapshot (AP-12/AP-26) |
@@ -112,6 +124,7 @@ Unless noted, the command prefix is `npx -y rea-agents@6.8.0 <cmd> "<gamemd.exe>
 | `gamemd-AP22.snapshot` | private snapshot copy for AP-22 | n/a | copy of `gamemd.snapshot`, used by one run |
 | `gamemd-AP24.snapshot` | copy of `gamemd.snapshot` used for the AP-24 runs | n/a | private snapshot (parallel-agent isolation) |
 | `gamemd-AP25.snapshot` | copy of `gamemd-AP18.snapshot` used by the AP-25 run | n/a | REA snapshot (AP-25) |
+| `gamemd-AP28.snapshot`, `gamemd-AP28b.snapshot` | private snapshot copies for the AP-28 `function` runs | n/a | copies of `gamemd.snapshot` |
 | `gamemd-2.snapshot` .. `gamemd-6.snapshot` | not named by any package result file | n/a | Present in the folder; origin not recorded |
 
 ### Deviations from the package scripts (`docs/arbeitspakete/T-022-AP-research.md`)

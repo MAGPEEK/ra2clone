@@ -2,9 +2,13 @@
 |---|---|---|---|---|---|---|
 | `bytes-0x7e7a28.json` | read_bytes | 0x7e7a28 | ev_732a3cbc208c9531fbf11d2a266fe696b81d3601a3f2b3d6b4d03bbcf9deb5f4 |  |  |  |
 | `bytes-0x7e7b28.json` | read_bytes | 0x7e7b28 | ev_24c499783dcfb87328bb0389e65e1cd864c524a9af0adfda3109d00884e86cf6 |  |  |  |
+| `bytes-0x7e8a78.json` | read_bytes | 0x7e8a78 | ev_813a54a2233db5acedeb0da099101a5959725d9185531803201f3b3420a2108e |  |  |  |
 | `bytes-0x817278.json` | read_bytes | 0x817278 | ev_83bb0cdffd2dcefbbaab38f8330dff78dee30e770601ba59cc01af88f257e6ed |  |  |  |
 | `bytes-0x81ac58.json` | read_bytes | 0x81ac58 | ev_b7c0235aadd8e93f6d8d8553151b1a13294f2f5cf9d987da1b1f7af9520cc593 |  |  |  |
 | `bytes-0x81bae8.json` | read_bytes | 0x81bae8 | ev_59e3db791a35505c546374799a40dc225fd37d95a85366a3dea29e8d2b7c6c74 |  |  |  |
+| `bytes-0x81bb18.json` | read_bytes | 0x81bb18 | ev_072214efd15ad7c2055db848b8d7c299952a5d2227f90c39ff662afb50e8014a |  |  |  |
+| `bytes-0x81da58.json` | read_bytes | 0x81da58 | ev_e12ce0fc5c446d33a303e5d28ab7417eed9666fe3fdce68a1b84033b95f89c15 |  |  |  |
+| `bytes-0x81dba0.json` | read_bytes | 0x81dba0 | ev_226c06127cd47f286111844fae2637a375d486616fb8f2e3bdae36122f811b69 |  |  |  |
 | `bytes-0x81dbd4.json` | read_bytes | 0x81dbd4 | ev_00fe57e42dc4e651c1492f46513f6dd0e006d36b031f9c897af27acfde1a711e |  |  |  |
 | `bytes-0x822d80.json` | read_bytes | 0x822d80 | ev_e087554034d37c2b4b06c8aa074fe3bbb27f04f75535502c0ae42b3934254efa |  |  |  |
 | `bytes-0x839d68.json` | read_bytes | 0x839d68 | ev_c7b013cd2e60ad4c7b183a9534f5eb674708c460938a6fe1f02d5ea5ae7d9362 |  |  |  |
@@ -17,8 +21,10 @@
 | `fn-0x4b1150.json` | analyze_function | 0x4b1150 | ev_82818cd00999a883d38000b429421800ebf5841f70e8c52d6ff3bdebf2110f55 | FUN_004b0f20 (0x4b0f20-0x4b2607) | 0 | 19 |
 | `fn-0x4b1f64.json` | analyze_function | 0x4b1f64 | ev_7bf7fc12fab5194682ce5da0ace375cfbc379b515ff0d6110294e021b61c3210 | FUN_004b0f20 (0x4b0f20-0x4b2607) | 0 | 19 |
 | `fn-0x4b3df0.json` | analyze_function | 0x4b3df0 | ev_2ad203770828541ce9e60a327a1e7acd8c84b5a61b82793804e30628f44ecbc7 | FUN_004b2630 (0x4b2630-0x4b4766) | 1 | 30 |
+| `fn-0x4b4780.json` | analyze_function | 0x4b4780 | ev_1745e3d90518b7349baaf8109a6faab3475f950454deb0d49a6bf65283ee6b12 | FUN_004b4780 (0x4b4780-0x4b47fb) | 2 | 0 |
 | `fn-0x4cda78.json` | analyze_function | 0x4cda78 | ev_e8f8f023f2e73e8631f1780d2aa8bcb480f345c8e83eedc8dccf0d03b00df44f | FUN_004cd600 (0x4cd600-0x4ce4a9) | 0 | 29 |
 | `fn-0x4ce4bf.json` | analyze_function | 0x4ce4bf | error: invalid_request | No procedure exists at the requested address: 0x4ce4bf |  |  |
+| `fn-0x4cfe20.json` | analyze_function | 0x4cfe20 | ev_b43b822b0b186b437373925f392321db5ad36e2bf12dcda4d65c106dea2b24e2 | FUN_004cfe20 (0x4cfe20-0x4cfe41) | 0 | 1 |
 | `fn-0x4db1b6.json` | analyze_function | 0x4db1b6 | ev_d12530ffa6271545062969ddf26320632fb24563966c3e208dfe11913ef56a57 | FUN_004db1a0 (0x4db1a0-0x4db245) | 1 | 3 |
 | `fn-0x50c079.json` | analyze_function | 0x50c079 | ev_f7a0385389155dc4130105a5cc2225b56ebb514b45c1929c7b6ff0ba57844612 | FUN_0050c050 (0x50c050-0x50c09b) | 1 | 0 |
 | `fn-0x511c2c.json` | analyze_function | 0x511c2c | ev_27162a68542bf6ac5d71db554490899d36f6fcaab1dc2d9b2b52926bed1ab2d5 | FUN_00511850 (0x511850-0x512164) | 0 | 28 |
@@ -45,9 +51,16 @@
 | `fn-0x7722f5.json` | analyze_function | 0x7722f5 | error: invalid_request | No procedure exists at the requested address: 0x7722f5 |  |  |
 | `fn-0x7729b0.json` | analyze_function | 0x7729b0 | error: invalid_request | No procedure exists at the requested address: 0x7729b0 |  |  |
 | `fn-0x7c5f00.json` | analyze_function | 0x7c5f00 | ev_30d736aaee2eba3faeb44096c1cc2728ecc2475515de7930881f57f23dc15b08 | FUN_007c5f00 (0x7c5f00-0x7c5f3c) | 460 | 0 |
+| `fn-0x7caf30.json` | analyze_function | 0x7caf30 | ev_703c6bb647f168a2fc35e1158d802d4d51a84dccaa6d3dddf633278eb7166495 | FUN_007caf30 (0x7caf30-0x7cafeb) | 16 | 0 |
 | `fn-0x7e5264.json` | analyze_function | 0x7e5264 | error: invalid_request | No procedure exists at the requested address: 0x7e5264 |  |  |
 | `inspect-artifact.json` | inspect_artifact | integrity_policy=fail, input_path=C:\Program Files\EA Games\Command and Conquer Red Alert I... | ev_a30b2b64830956e5b76792041c8a121b426bdc920b6df2f17be4d0f343adddc0 |  |  |  |
 | `inspect-byte-entropy.json` | inspect_byte_entropy | path=C:\Program Files\EA Games\Command and Conquer Red Alert I..., block_size=4096, offset=0 | ev_c7ea0c0c105e964044ac73cbc05d3c49f7963cc60d76c2290d22dd7ac0f68798 |  |  |  |
+| `inspect-instr-0x4495f3.json` | inspect_native_instruction | 0x4495f3 | ev_bc854e94c85ad9e6cae8d14f7c2ccbcf5ffa2a8a02293444c4ce15ff4dc45027 |  |  |  |
+| `inspect-instr-0x4ce4b0.json` | inspect_native_instruction | 0x4ce4b0 | ev_9c0988462b6bd9c2830368eb5113f294ceb494c1aa0f5fe9cbc8defb3ce6c42e |  |  |  |
+| `inspect-instr-0x4eb1eb.json` | inspect_native_instruction | 0x4eb1eb | ev_c9eb9f783687ab57270493f34722c27302c2c31602d3b715c340ebce65f55ffb |  |  |  |
+| `inspect-instr-0x530c13.json` | inspect_native_instruction | 0x530c13 | ev_b9c8929a0c7b94c3711876f617be1590422a89d7a215786ce53f0f5bc7ebf66f |  |  |  |
+| `inspect-instr-0x6f3270.json` | inspect_native_instruction | 0x6f3270 | ev_2b1a0acdeb579bcb416dbb4f336fb474469b820fdf6c8da417ce088eee62dab9 |  |  |  |
+| `inspect-instr-0x7b603a.json` | inspect_native_instruction | 0x7b603a | ev_99e0fbadcd5bc06b1f2859a25ff45f15418dd371a353dfb5ca471a34b92e71d7 |  |  |  |
 | `inspect-pe-certificates.json` | inspect_pe_certificates | path=C:\Program Files\EA Games\Command and Conquer Red Alert I..., max_file_bytes=67108864, max_entries=8 | ev_c324f0d2e98a9ced2ecb9c6acb1fae18aa0dfd464f456e6d82733dcb02673a9e |  |  |  |
 | `inspect-pe-imports.json` | inspect_pe_imports | path=C:\Program Files\EA Games\Command and Conquer Red Alert I..., max_file_bytes=67108864, max_dlls=256, max_functions=8192 | ev_e068037a9babe39e5d818b78317f43df59a50b6b8f771420a7358acf22f52c4f |  |  |  |
 | `inspect-pe-resources.json` | inspect_pe_resources | path=C:\Program Files\EA Games\Command and Conquer Red Alert I..., max_file_bytes=67108864, max_entries=16384 | ev_1fc663217f60150e7de3d36ac27bac6573e5a47a32f1038f136a183c5406f230 |  |  |  |
@@ -65,6 +78,8 @@
 | `instr-0x7722f5-single.json` | inspect_native_instruction | 0x7722f5 | ev_3c503f2196464753a9d8841dfda54c38650075f37b63b7e644b6afab6097a889 |  |  |  |
 | `instr-0x7722f5.json` | read_function_instructions | 0x7722f5 | error: invalid_request | No procedure exists at the requested address: 0x7722f5 |  |  |
 | `search-Foot.json` | search_strings | pattern=Foot, mode=literal, case_sensitive=true | ev_b5dcaed203abd157d161a3644da58cc70803499d458a285210849064d6aed959 | 3 result(s) |  |  |
+| `searchbytes-d92d.json` | search_bytes | pattern=d92d, limit=100 | ev_962e8f852e902ecd56bc2aa63bdcdf07a767c4c11ba225e1d15b740007995624 |  |  |  |
+| `searchbytes-fldcw-all.json` | search_bytes | pattern=d928, limit=200, mask=ff38, start=0x401000, end=0x7e0fff | ev_2902956242d7a1fba95ffd30a546d8bcba35a5d967e7b5b62d44f8605fd510a5 |  |  |  |
 | `xrefs-0x4ce4b0.json` | xrefs | 0x4ce4b0 | ev_0d6c3caffb743e25f0d2bfd972d5277ed9b00c93a484908029786038f518c155 | 0 result(s) |  |  |
 | `xrefs-0x4db1a0.json` | xrefs | 0x4db1a0 | ev_3038fc4f05894b1ba94de99388c563e37ef8f68671523dcc96b04f19990132d9 | 4 result(s) |  |  |
 | `xrefs-0x521d80.json` | xrefs | 0x521d80 | ev_3e3a547987cdedecf729c694bc429dfa471c7067f3cef8d44dc21fc8cc75961a | 1 result(s) |  |  |
